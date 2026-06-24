@@ -25,7 +25,7 @@ import { useAuthStore } from "../stores/useAuthStore";
 import { useUserStore } from "../stores/useUserStore";
 import { useFeedStore } from "../stores/useFeedStore";
 import { dietPlanService } from "../services/dietPlanService";
-import { getImageUrl } from "../../utils/helpers";
+import { getImageUrl } from "../utils/helpers";
 
 const { Title, Text, Paragraph } = Typography;
 

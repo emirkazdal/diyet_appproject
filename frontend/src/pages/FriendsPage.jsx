@@ -6,6 +6,7 @@ import { useState, useEffect, useCallback, useMemo } from "react";
 import { Select, Avatar, Spin } from "antd";
 import { UserOutlined } from "@ant-design/icons";
 import { motion, AnimatePresence } from "framer-motion";
+import { getImageUrl } from "../utils/helpers";
 import { toast } from "react-toastify";
 import { friendService } from "../services/friendService";
 import "./FriendsPage.css";

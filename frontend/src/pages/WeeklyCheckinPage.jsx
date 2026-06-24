@@ -45,7 +45,7 @@ import {
 import { useUserStore } from "../stores/useUserStore";
 import { useNotificationStore } from "../stores/useNotificationStore";
 import { checkinService } from "../services/checkinService";
-import { getImageUrl } from "../../utils/helpers";
+import { getImageUrl } from "../utils/helpers";
 
 const { Title, Text, Paragraph } = Typography;
 const { TextArea } = Input;

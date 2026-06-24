@@ -34,7 +34,7 @@ import { useAuthStore } from "../stores/useAuthStore";
 import { useNavigate } from "react-router-dom";
 import { authService } from "../services/authService";
 import { userService } from "../services/userService";
-import { getImageUrl } from "../../utils/helpers";
+import { getImageUrl } from "../utils/helpers";
 
 const { Title, Text, Paragraph } = Typography;
 

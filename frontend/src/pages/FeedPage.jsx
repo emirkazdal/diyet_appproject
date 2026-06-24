@@ -57,7 +57,7 @@ import { dietPlanService } from "../services/dietPlanService";
 import { useNotificationStore } from "../stores/useNotificationStore";
 import { userService } from "../services/userService";
 
-import { getImageUrl } from "../../utils/helpers";
+import { getImageUrl } from "../utils/helpers";
 
 const { Title, Text, Paragraph } = Typography;
 
